@@ -1,0 +1,10 @@
+tensorflow==2.17.0
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+opencv-python
+opencv-contrib-python

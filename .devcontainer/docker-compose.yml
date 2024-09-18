@@ -1,0 +1,14 @@
+version: '3'
+services:
+  workspace-python:
+    image: mcr.microsoft.com/vscode/devcontainers/python:3.10
+    volumes:
+      - ../../date-science:/home/vscode/training/python/date-science:cached
+      - ~/.ssh:/home/vscode/.ssh
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+    working_dir: /home/vscode/training/python/date-science
+    command: /bin/sh -c "while sleep 1000; do :; done" 
+    

@@ -1,0 +1,21 @@
+{
+  "name": "Python Dev Container",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "workspace-python",
+  "workspaceFolder": "/home/vscode/training/python/date-science",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python",
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter", // Jupyter 基本拡張機能
+    "ms-toolsai.jupyter-keymap", // Jupyter Keymap
+    "ms-toolsai.jupyter-cell-tags", // Jupyter Cell Tags
+    "ms-toolsai.jupyter-slideshow", // Jupyter Slide Show
+    "ms-toolsai.jupyter-notebook-renderers" // Jupyter Notebook Renders
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
