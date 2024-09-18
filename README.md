@@ -3,7 +3,7 @@ pythonを用いた機械学習をメインで行うためのdevcontainer開発�
 
 requirements.txtに使用したいpipライブラリを記載し、その後ReBuildするようにして下さい。
 
-最新のtensorflowはver3.12以下のpython環境のみ現状動作するため、ver3.10 python imageを導入しています。（2024/09/19記載）
+最新のtensorflowはver3.12以下のpython環境のみ現状動作するため、ver3.10のイメージを導入しています。（2024/09/19記載）
 
 **導入済み ライブラリ**
 - tensorflow==2.17.0
